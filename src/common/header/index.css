@@ -1,0 +1,60 @@
+#header {
+	background-color: rgb(25, 27, 40);
+	color: white;
+	padding: 10px 0px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#brand {
+	font-size: 160%;
+	margin: 0px 40px;
+}
+
+#header small {
+	font-size: 0.4em;
+}
+
+#header .search-box {
+	width: 35%;
+	margin-right: 30px;
+}
+
+.navbar-button img {
+	height: 1.5em;
+	margin: 0px 10px;
+}
+
+.signin,
+.cart {
+	margin: 0px 10px;
+}
+
+.navbar-button {
+	margin-left: auto;
+	margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+	#brand {
+		order: 1;
+		margin: 0px 20px;
+	}
+	.navbar-button {
+		order: 2;
+		margin-right: 20px;
+	}
+	#header .search-box {
+		order: 3;
+		width: 100%;
+		margin: 5px 20px;
+	}
+	#brand span {
+		display: none;
+	}
+	.signin,
+	.cart {
+		margin: 0px 5px;
+	}
+}
