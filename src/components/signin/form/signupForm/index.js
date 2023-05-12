@@ -13,6 +13,7 @@ const Form = ({
 	setEmail,
 	password,
 	setPassword,
+	setVisible,
 }) => {
 	return (
 		<div>
@@ -23,6 +24,7 @@ const Form = ({
 				setEmail={setEmail}
 				password={password}
 				setPassword={setPassword}
+				setVisible={setVisible}
 			/>
 			<div
 				style={{ marginTop: "10px" }}

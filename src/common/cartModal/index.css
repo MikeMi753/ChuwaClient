@@ -1,0 +1,100 @@
+body .ant-modal-header {
+	background-color: rgb(90, 8, 214);
+}
+
+body .ant-modal-title {
+	color: white;
+}
+
+.cart-empty {
+	text-align: center;
+	font-weight: 600;
+	font-size: large;
+}
+
+.cart-product {
+	height: 110px;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.cart-product-items {
+	flex-grow: 1;
+}
+
+.cart-product-image {
+	height: 100%;
+	border: 1px solid lightgray;
+	margin-right: 5px;
+}
+
+.cart-product-action {
+	margin-top: 55px;
+}
+
+.cart-product-name {
+	font-size: large;
+	font-weight: 700;
+}
+
+.cart-product-price {
+	font-size: large;
+	font-weight: 600;
+	color: rgb(90, 8, 214);
+}
+
+.cart-product-price {
+	float: right;
+}
+
+.cart-product .ant-input[disabled] {
+	text-align: center;
+	color: black;
+	cursor: unset;
+}
+
+.cart-modify-count {
+	cursor: pointer;
+}
+
+.cart-product a {
+	color: gray;
+	text-decoration: underline;
+}
+
+.cart-subtotal-info h4 {
+	color: gray;
+	font-size: small;
+}
+
+.cart-subtotal-info hr {
+	margin: 20px 0;
+	border-color: white;
+}
+
+.cart-subtotal-info .ant-btn {
+	background-color: rgb(90, 8, 214);
+	color: white;
+	border-radius: 5px;
+}
+
+.cart-price-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cart-price-row h3 {
+	font-size: 15px;
+}
+
+@media (max-width: 768px) {
+	.cart-product-name {
+		display: block;
+	}
+	.cart-product-price {
+		float: none;
+	}
+	.cart-product-action {
+		margin-top: 25px;
+	}
+}

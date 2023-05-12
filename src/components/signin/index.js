@@ -22,8 +22,13 @@ const Signin = () => {
 				width={Math.max(300, size.width * 0.35)}
 				visible={visible}
 				setVisible={setVisible}
+				setModalType={setModalType}
 			>
-				<ModalContent modalType={modalType} setModalType={setModalType} />
+				<ModalContent
+					modalType={modalType}
+					setModalType={setModalType}
+					setVisible={setVisible}
+				/>
 			</Modal>
 		</>
 	);

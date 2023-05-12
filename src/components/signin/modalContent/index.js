@@ -8,7 +8,7 @@ import "./index.css";
 import CONSTANT from "../../../constant";
 import emailSent from "../../../image/emailSent.png";
 
-const ModalContent = ({ modalType, setModalType }) => {
+const ModalContent = ({ modalType, setModalType, setVisible }) => {
 	const [email, setEmail] = useState({
 		value: "",
 		errorMessage: "",
@@ -29,6 +29,7 @@ const ModalContent = ({ modalType, setModalType }) => {
 				setEmail={setEmail}
 				password={password}
 				setPassword={setPassword}
+				setVisible={setVisible}
 			/>
 		);
 	} else if (modalType === CONSTANT.MODAL_TYPE.SIGNUP) {
@@ -40,6 +41,7 @@ const ModalContent = ({ modalType, setModalType }) => {
 				setEmail={setEmail}
 				password={password}
 				setPassword={setPassword}
+				setVisible={setVisible}
 			/>
 		);
 	} else {

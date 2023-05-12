@@ -10,6 +10,7 @@
 #brand {
 	font-size: 160%;
 	margin: 0px 40px;
+	cursor: pointer;
 }
 
 #header small {
@@ -29,11 +30,17 @@
 .signin,
 .cart {
 	margin: 0px 10px;
+	cursor: pointer;
 }
 
 .navbar-button {
 	margin-left: auto;
 	margin-right: 30px;
+}
+
+#signout-btn {
+	all: unset;
+	cursor: pointer;
 }
 
 @media (max-width: 768px) {

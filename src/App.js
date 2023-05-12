@@ -1,15 +1,17 @@
 import React from "react";
-import Home from "./components/home/";
+import Main from "./components/Main";
 import Header from "./common/header";
 import Footer from "./common/footer";
 
+import "./App.css";
+
 function App() {
 	return (
-		<>
+		<div id="main-wrapper">
 			<Header />
-			<Home />
+			<Main />
 			<Footer />
-		</>
+		</div>
 	);
 }
 

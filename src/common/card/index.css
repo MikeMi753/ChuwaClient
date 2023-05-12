@@ -1,0 +1,67 @@
+.card-wrapper {
+	width: 190px;
+	height: 235px;
+	border: 1px solid lightgray;
+	padding: 10px;
+	margin: 8px 5px;
+}
+
+.card-wrapper img {
+	display: block;
+	margin: auto;
+	width: 88%;
+	cursor: pointer;
+}
+
+.card-wrapper h4 {
+	color: gray;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+.card-wrapper h5 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.card-wrapper .ant-input[disabled] {
+	text-align: center;
+	color: white;
+	background-color: rgb(90, 8, 214);
+	cursor: unset;
+}
+
+.card-wrapper .ant-input-affix-wrapper {
+	border-radius: 5px;
+}
+
+.card-wrapper span {
+	color: white;
+	background-color: rgb(90, 8, 214);
+	cursor: pointer;
+}
+
+.card-wrapper .edit-btn-txt {
+	background-color: white;
+	color: black;
+}
+
+.card-wrapper .ant-btn {
+	border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+	.card-wrapper {
+		flex-grow: 0.7;
+		flex-basis: auto;
+		height: 260px;
+	}
+
+	.card-wrapper img {
+		width: 68%;
+	}
+}

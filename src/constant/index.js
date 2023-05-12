@@ -9,4 +9,8 @@ const FORM_FIELD = {
 	PASSWORD: "Password",
 };
 
+// const LOGIN_STATE = {
+// 	LOADING: "Loading...",
+// };
+
 export default { MODAL_TYPE, FORM_FIELD };
